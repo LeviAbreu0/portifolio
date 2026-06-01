@@ -1,5 +1,5 @@
 import { motion } from "motion/react";
-import { Mail } from "lucide-react";
+import { Mail, Phone } from "lucide-react";
 import { useI18n } from "../i18n/I18nProvider";
 import { Reveal } from "./Reveal";
 
@@ -42,6 +42,19 @@ export function Contact() {
               <Mail size={20} className="text-primary-400" />
               <span className="text-zinc-300 group-hover:text-white transition-colors">
                 {t.contact.email}
+              </span>
+            </motion.a>
+
+            <motion.a
+              href="https://wa.me/558899229104"
+              target="_blank"
+              rel="noopener noreferrer"
+              whileHover={{ scale: 1.05 }}
+              className="inline-flex items-center gap-3 px-6 py-4 rounded-xl bg-zinc-900/80 border border-zinc-800 hover:border-primary-500/50 transition-all duration-300 group"
+            >
+              <Phone size={20} className="text-primary-400" />
+              <span className="text-zinc-300 group-hover:text-white transition-colors">
+                {t.contact.whatsapp}
               </span>
             </motion.a>
 
