@@ -1,73 +1,63 @@
-# React + TypeScript + Vite
+# Olá, me chamo Levi 👋
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Sou estudante de programação e uso este espaço para mostrar meus projetos, testar ideias e registrar minha evolução com projetos práticos.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🛠️ Tecnologias e Skills
 
-## React Compiler
+### Front-end
+<div style="display: flex; flex-direction: row; gap: 10px;">
+  <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML" target="_blank">
+    <img src="https://skillicons.dev/icons?i=html" width="40" height="40"/>
+  </a>
+  <a href="https://developer.mozilla.org/pt-BR/docs/Web/CSS" target="_blank">
+    <img src="https://skillicons.dev/icons?i=css" width="40" height="40"/>
+  </a>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">
+    <img src="https://skillicons.dev/icons?i=js" width="40" height="40"/>
+  </a>
+  <a href="https://www.typescriptlang.org/" target="_blank">
+    <img src="https://skillicons.dev/icons?i=ts" width="40" height="40"/>
+  </a>
+  <a href="https://react.dev/" target="_blank">
+    <img src="https://skillicons.dev/icons?i=react" width="40" height="40" alt="React"/>
+  </a>
+  <a href="https://reactnative.dev/" target="_blank">
+    <img src="https://skillicons.dev/icons?i=react" width="40" height="40" alt="React Native"/>
+  </a>
+  <a href="https://www.figma.com/" target="_blank">
+    <img src="https://skillicons.dev/icons?i=figma" width="40" height="40"/>
+  </a>
+</div>
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Back-end
+<div style="display: flex; flex-direction: row; gap: 10px;"> <a href="https://nodejs.org/" target="_blank"> <img src="https://skillicons.dev/icons?i=nodejs" width="40" height="40"/> </a> <a href="https://www.java.com/" target="_blank"> <img src="https://skillicons.dev/icons?i=java" width="40" height="40"/> </a> <a href="https://spring.io/projects/spring-boot" target="_blank"> <img src="https://skillicons.dev/icons?i=spring" width="40" height="40"/> </a> <a href="https://www.mysql.com/" target="_blank"> <img src="https://skillicons.dev/icons?i=mysql" width="40" height="40"/> </a> </div>
 
-## Expanding the ESLint configuration
+### Outros
+<div style="display: flex; flex-direction: row; gap: 10px;">
+  <a href="https://git-scm.com/" target="_blank">
+    <img src="https://skillicons.dev/icons?i=git" width="40" height="40"/>
+  </a>
+  <a href="https://isocpp.org/" target="_blank">
+    <img src="https://skillicons.dev/icons?i=cpp" width="40" height="40"/>
+  </a>
+</div>
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+---
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+## 🌐 Portfólio
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+Acesse meu portfólio: [leviabreudev.vercel.app](https://leviabreudev.vercel.app)
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+---
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## Contato
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+- GitHub: [github.com/LeviAbreu0](https://github.com/LeviAbreu0)
+- Email: [leviabreu.dev@gmail.com](mailto:leviabreu.dev@gmail.com)
+- WhatsApp: [wa.me/558899229104](https://wa.me/558899229104)
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+---
+
+<sub>Construindo aos poucos.</sub>
